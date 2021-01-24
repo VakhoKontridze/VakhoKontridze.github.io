@@ -1,0 +1,22 @@
+.contact-section {
+    padding: 40px 0px;
+    justify-content: center;
+}
+
+.contact-section h1 {
+    text-align: center;
+}
+
+.contact-button {
+    display: block;
+    max-width: 175px; 
+    padding: 10px 50px;
+    border: 0px;
+    border-radius: 20px;
+    margin: 40px auto;
+    text-align: center;
+    color: rgb(30, 30, 30);
+    background: rgb(190, 160, 90);
+    cursor: pointer;
+    transition: 0.5s;
+}

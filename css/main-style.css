@@ -1,0 +1,44 @@
+* {
+  	box-sizing: border-box;
+  	margin: 0;
+  	padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(255, 240, 170);
+  	background-color: rgb(30, 30, 30);
+}
+
+
+body{
+    min-width: 550px;
+    width: auto !important;
+    width: 550px;
+}
+
+
+main {
+	min-height: calc(100vh - 78px - 56px);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px 20px 10px 20px;
+    text-align: center;
+    font-weight: 1000;
+    color: rgb(190, 160, 90);
+}
+
+
+p, table, li {
+    margin: 0px 50px 20px 50px;
+    text-align: justify;
+}
+
+p + .paragraph-header, table + .paragraph-header, ul + .paragraph-header, .slider-container + .paragraph-header {
+    margin-top: 70px;
+}
+
+
+ul {
+    list-style-type: none;
+}
